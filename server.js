@@ -16,7 +16,7 @@ app.use(express.json());
 
 app.use("/", noteRoutes);
 
-mongoose.connect(mongodb+srv://pravallikadharmasanam24_db_user:pravallika2711@cluster0.kzcfpvb.mongodb.net/pravallika
+mongoose.connect("mongodb+srv://pravallikadharmasanam24_db_user:pravallika2711@cluster0.kzcfpvb.mongodb.net/pravallika"
 )
 .then(() => {
     console.log("MongoDB Connected Successfully");
